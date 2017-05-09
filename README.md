@@ -19,3 +19,13 @@ ALS recommender is a matrix factorization algorithm that uses Alternating Least 
 ## Considerations
 
 The ALS model used assumes, by default, that the ratings are explicit. If the ratings matrix is described by other information or inferred from other signals then the parameter implicitPrefs can be set to True and yield better results.
+
+## References
+
+I used the following sites for help in the making this repo:
+
+1. https://spark.apache.org/docs/preview/ml-collaborative-filtering.html
+
+2. http://blog.ethanrosenthal.com/2015/11/02/intro-to-collaborative-filtering/
+
+3. https://www.elenacuoco.com/2016/12/22/alternating-least-squares-als-spark-ml/
